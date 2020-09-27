@@ -1,0 +1,28 @@
+{
+  "name": "first-aml",
+  "private": true,
+  "version": "0.0.1",
+  "description": "first-aml",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@ionic/core": "^5.3.2",
+    "@stencil/core": "^2.0.1",
+    "@types/puppeteer": "^3.0.1",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2",
+    "puppeteer": "^5.2.1"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.14"
+  }
+}
